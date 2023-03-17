@@ -1,6 +1,5 @@
 package ejercicio3;
 
-import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Map.Entry;
 import java.util.Scanner;
