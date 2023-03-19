@@ -69,9 +69,6 @@ public class Ejercicio3App {
 				break;
 			}
 		}
-
-		//Enumeration<Hashtable<Double, Integer>> elementos = articulos.elements();
-		//System.out.println(articulos.get("Galletas"));
 		
 		scan.close();
 	}
