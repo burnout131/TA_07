@@ -22,7 +22,7 @@ public class Ejercicio4App {
 				int iva;
 
 				scan.nextLine();
-				System.out.println("Introduce Nombre producto (escribe 'fin' para terminar");
+				System.out.println("Introduce Nombre producto (escribe 'fin' para terminar)");
 				nombreProducto = scan.nextLine().toLowerCase();
 				System.out.println("Introduce el importe (con IVA incluido)");
 				importeProducto = scan.nextDouble();
@@ -31,7 +31,7 @@ public class Ejercicio4App {
 
 				while (!nombreProducto.equals("fin")) {
 					scan.nextLine();
-					System.out.println("Introduce Nombre producto (escribe 'fin' para terminar");
+					System.out.println("Introduce Nombre producto (escribe 'fin' para terminar)");
 					nombreProducto = scan.nextLine().toLowerCase();
 
 					if (nombreProducto.equals("fin")) {
@@ -67,7 +67,8 @@ public class Ejercicio4App {
 			}
 			
 			if(opcion == 2) {
-				
+				Articulo art = new Articulo();
+				art.gestionaStock(scan);
 			}
 		}
 		
